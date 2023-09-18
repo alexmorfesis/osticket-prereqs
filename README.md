@@ -46,21 +46,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </ol>
 <p>
 
-<h3></h3>
+<h3>Step 3: Download and Install PHP Manager for IIS</h3>
   <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>From the installation files, download "PHP Manager for IIS" (PHPManagerForIIS_V1.5.0.msi).</li>
+    <li>Install it.</li>
   </ol>
 <p>
 
-<h3></h3>
+<h3>Step 4: Download and Install the Rewrite Module</h3>
   <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>From the installation files, download "URL Rewrite Module" (rewrite_amd64_en-US.msi).</li>
+    <li>Install it.</li>
   </ol>
 <p>
 
