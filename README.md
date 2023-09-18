@@ -34,7 +34,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ol>
     <li>Use Remote Desktop to connect to your Azure Windows 10 VM.</li>
   </ol>
-<p>
 
 <h3>Step 2: Enable IIS</h3>
   <ol>
@@ -44,21 +43,60 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li>Add required features: CGI and Common HTTP Features.</li>
     <li>Also, include the IIS Management Console during installation.</li>
   </ol>
-<p>
+
 
 <h3>Step 3: Download and Install PHP Manager for IIS</h3>
   <ol>
     <li>From the installation files, download "PHP Manager for IIS" (PHPManagerForIIS_V1.5.0.msi).</li>
     <li>Install it.</li>
   </ol>
-<p>
+
 
 <h3>Step 4: Download and Install the Rewrite Module</h3>
   <ol>
     <li>From the installation files, download "URL Rewrite Module" (rewrite_amd64_en-US.msi).</li>
     <li>Install it.</li>
   </ol>
+  
+
+<h3>Step 5: Download and Configure PHP</h3>
+  <ol>
+    <li>Create a directory, e.g., C:\PHP.</li>
+    <li>From the installation files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip).</li>
+    <li>Extract the contents into C:\PHP.</li>
+  </ol>
 <p>
+
+
+<h3>Step 6: Install VC Redistributable</h3>
+  <ol>
+    <li>From the installation files, download and install VC_redist.x86.exe.</li>
+  </ol>
+
+
+<h3>Step 7: Install MySQL</h3>
+  <ol>
+    <li>From the installation files, download MySQL 5.5.62 (mysql-5.5.62-win32.msi).</li>
+    <li>Choose a "Typical Setup."</li>
+    <li>Launch the MySQL Configuration Wizard after installation and select "Standard Configuration." Set the root password (e.g., Password1).</li>
+  </ol>
+
+
+<h3>Step 8: Configure IIS</h3>
+  <ol>
+    <li>Open IIS Manager.</li>
+    <li>Register PHP: In IIS Manager, select your server, then double-click on "Handler Mappings."</li>
+    <li>Click "Add Module Mapping" and configure it to handle .php files with the PHP executable.</li>
+  </ol>
+
+
+<h3>Step 9: Download and Install osTicket:</h3>
+  <ol>
+    <li>Download osTicket from the provided installation files.</li>
+    <li>Extract the contents and copy the "upload" folder to C:\inetpub\wwwroot.</li>
+    <li>Rename the "upload" folder to "osTicket.</li>
+  </ol>
+
 
 <h3></h3>
   <ol>
@@ -67,7 +105,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li></li>
     <li></li>
   </ol>
-<p>
+
 
 <h3></h3>
   <ol>
