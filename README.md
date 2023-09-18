@@ -32,8 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 1: Connect to Your VM:
   <ol>
-    <li>Use Remote Desktop to connect to your Azure Windows 10 VM.</h3>
-</li>
+    <li>Use Remote Desktop to connect to your Azure Windows 10 VM.</li>
   </ol>
 <p>
 
