@@ -30,23 +30,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<h3>Download Required Software</h3>
+<h3>Step 1: Connect to Your VM:
   <ol>
-    <li>PHP: Download the latest stable version of PHP for Windows from the official PHP website (https://windows.php.net/download/).
-</li>
-    <li>Apache HTTP Server: Download the latest version of Apache for Windows from the Apache Lounge website (https://www.apachelounge.com/download/).
-</li>
-    <li>MySQL: Download the MySQL Installer for Windows from the official MySQL website (https://dev.mysql.com/downloads/installer/).
+    <li>Use Remote Desktop to connect to your Azure Windows 10 VM.</h3>
 </li>
   </ol>
 <p>
 
-<h3></h3>
+<h3>Step 2: Enable IIS</h3>
   <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Open the "Server Manager" on your Windows VM.</li>
+    <li>Click on "Add roles and features."</li>
+    <li>Choose "Web Server (IIS)" as a role to install.</li>
+    <li>Add required features: CGI and Common HTTP Features.</li>
+    <li>Also, include the IIS Management Console during installation.</li>
   </ol>
 <p>
 
