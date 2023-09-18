@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 <ul>
-  <li><Azure Account: Ensure you have an active Azure account./li>
+  <li>Azure Account: Ensure you have an active Azure account.</li>
   <li>Azure Virtual Machine: Create a Windows 10 Virtual Machine on Azure if you haven't already.</li>
   <li>Remote Desktop: Make sure you can access your VM using Remote Desktop.</li>
 </ul>
