@@ -22,14 +22,68 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+<ul>
+  <li><Azure Account: Ensure you have an active Azure account./li>
+  <li>Azure Virtual Machine: Create a Windows 10 Virtual Machine on Azure if you haven't already.</li>
+  <li>Remote Desktop: Make sure you can access your VM using Remote Desktop.</li>
+</ul>
 
 <h2>Installation Steps</h2>
 
+<h3>Download Required Software</h3>
+  <ol>
+    <li>PHP: Download the latest stable version of PHP for Windows from the official PHP website (https://windows.php.net/download/).
+</li>
+    <li>Apache HTTP Server: Download the latest version of Apache for Windows from the Apache Lounge website (https://www.apachelounge.com/download/).
+</li>
+    <li>MySQL: Download the MySQL Installer for Windows from the official MySQL website (https://dev.mysql.com/downloads/installer/).
+</li>
+  </ol>
+<p>
+
+<h3></h3>
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+<p>
+
+<h3></h3>
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+<p>
+
+<h3></h3>
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+<p>
+
+<h3></h3>
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+<p>
+
+<h3></h3>
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
