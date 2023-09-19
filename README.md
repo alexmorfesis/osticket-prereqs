@@ -50,7 +50,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/TDyu27P.png" height="80%" width="80%" alt="Common HTTP Features"/>
 </p>
 <p>
-  <li>Open a webrowser and visit http://127.0.0.1/. If the installaiton was successful you will see a site like the one below.</li>
+  <li>Open a webrowser and visit http://127.0.0.1/. If the installation was successful you will see a site like the one below.</li>
      <br />
 <p>
 <img src="https://i.imgur.com/vV12vmo.png" height="80%" width="80%" alt="Common HTTP Features"/>
