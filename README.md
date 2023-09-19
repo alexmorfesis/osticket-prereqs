@@ -26,6 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>Azure Account: Ensure you have an active Azure account.</li>
   <li>Azure Virtual Machine: Create a Windows 10 Virtual Machine on Azure if you haven't already.</li>
   <li>Remote Desktop: Make sure you can access your VM using Remote Desktop.</li>
+  <li>Access to the Installation Files on Google Drive: https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6</li>
 </ul>
 
 <h2>Installation Steps</h2>
@@ -61,8 +62,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 3: Download and Install PHP Manager for IIS</h3>
   <ol>
-    <li>From the installation files, download "PHP Manager for IIS" (PHPManagerForIIS_V1.5.0.msi).</li>
-    <li>Install it.</li>
+    <li>From the installation files, download and install "PHP Manager for IIS" (PHPManagerForIIS_V1.5.0.msi).</li>
   </ol>
 
 
