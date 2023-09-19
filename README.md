@@ -37,9 +37,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 2: Enable IIS</h3>
   <ol>
-    <li>Open the "Server Manager" on your Windows VM. In the Start menu, type "Turn Windows features on or off" and press Enter. This will open the "Windows Features" dialog. In the "Windows Features" dialog, scroll down or look for "Internet Information Services." </li>
-    <li>Click on "Add roles and features."</li>
-    <li>Choose "Web Server (IIS)" as a role to install.</li>
+    <li>In the Start menu, type "Turn Windows features on or off" and press Enter. This will open the "Windows Features" dialog.</li>
+    <li>In the "Windows Features" dialog, scroll down or look for "Internet Information Services." </li>
     <li>Add required features: CGI and Common HTTP Features.</li>
     <br />
 <p>
