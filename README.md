@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>Azure Account: Ensure you have an active Azure account.</li>
   <li>Azure Virtual Machine: Create a Windows 10 Virtual Machine on Azure if you haven't already.</li>
   <li>Remote Desktop: Make sure you can access your VM using Remote Desktop.</li>
-  <li>Access to the <a href="drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> on Google Drive</li>
+  <li>Access to the <a href="[drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing)">Installation Files</a> on Google Drive</li>
 </ul>
 
 <h2>Installation Steps</h2>
