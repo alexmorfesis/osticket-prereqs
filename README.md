@@ -37,11 +37,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 2: Enable IIS</h3>
   <ol>
-    <li>Open the "Server Manager" on your Windows VM.</li>
+    <li>Open the "Server Manager" on your Windows VM. In the Start menu, type "Turn Windows features on or off" and press Enter. This will open the "Windows Features" dialog. In the "Windows Features" dialog, scroll down or look for "Internet Information Services." </li>
     <li>Click on "Add roles and features."</li>
     <li>Choose "Web Server (IIS)" as a role to install.</li>
     <li>Add required features: CGI and Common HTTP Features.</li>
-    <li>Also, include the IIS Management Console during installation.</li>
+    <br />
+<p>
+<img src="https://i.imgur.com/1Xx2vhl.png" height="80%" width="80%" alt="CGI path and seletion"/>
+</p>
+<p>
+   <br />
+<p>
+<img src="https://i.imgur.com/TDyu27P.png" height="80%" width="80%" alt="Common HTTP Features"/>
+</p>
+<p>
   </ol>
 
 
@@ -128,12 +137,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
