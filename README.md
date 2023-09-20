@@ -113,11 +113,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ol>
     <li>Open IIS Manager and run an Administrator.</li>
       <br />
-<p>
+<p>P
 <img src="https://i.imgur.com/YG6FD1b.png" height="80%" width="80%" alt="IIS Run as Admin"/>
 </p>
-    <li>Register PHP: In IIS Manager, select your server, then double-click on "Handler Mappings."</li>
-    <li>Click "Add Module Mapping" and configure it to handle .php files with the PHP executable.</li>
+    <li>Register PHP: In IIS Manager
+       <ul>
+        <li>Double click PHP Manager</li>
+        <li>Select "register new PHP version"</li>
+        <li>Provide the path "C:\PHP\php-cgi.exe"</li>
+         <br />
+
+<p>
+<img src="https://i.imgur.com/U6ci6Bc.png" height="80%" width="80%" alt="Register PHP"/>
+</p>
+      </ul>
+    </li>
+    <li>In IIS Manager, select your server, and click "Restart" from the right-hand side.</li>
+       <br />
+
+<p>
+<img src="https://i.imgur.com/Zk1AzMz.png" height="80%" width="80%" alt="Restart Webserver"/>
+</p>
   </ol>
 
 
@@ -178,7 +194,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/U6ci6Bc.png" height="80%" width="80%" alt="Enable PHP"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
