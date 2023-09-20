@@ -86,9 +86,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/eEaQOy4.png" height="80%" width="80%" alt="Extract PHP"/>
 </p>
-<p>
   </ol>
-<p>
 
 
 <h3>Step 6: Install VC Redistributable</h3>
@@ -102,6 +100,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li>From the installation files, download MySQL 5.5.62 (mysql-5.5.62-win32.msi).</li>
     <li>Choose a "Typical Setup."</li>
     <li>Launch the MySQL Configuration Wizard after installation and select "Standard Configuration." Set the root password (e.g., Password1).</li>
+    <br />
+
+<p>
+<img src="https://i.imgur.com/dMIuL2z.png" height="80%" width="80%" alt="MySQL Credentials"/>
+</p>
   </ol>
 
 
