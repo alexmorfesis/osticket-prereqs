@@ -75,8 +75,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 5: Download and Configure PHP</h3>
   <ol>
     <li>Create a directory, e.g., C:\PHP.</li>
+       <br />
+<p>
+<img src="https://i.imgur.com/oaT10VC.png" height="80%" width="80%" alt="Create PHP directory"/>
+</p>
+<p>
     <li>From the installation files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip).</li>
     <li>Extract the contents into C:\PHP.</li>
+     <br />
+<p>
+<img src="https://i.imgur.com/eEaQOy4.png" height="80%" width="80%" alt="Extract PHP"/>
+</p>
+<p>
   </ol>
 <p>
 
