@@ -103,7 +103,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <br />
 
 <p>
-<img src="https://i.imgur.com/dMIuL2z.png" height="80%" width="80%" alt="MySQL Credentials"/>
+<img src="https://i.imgur.com/lTt04Uq.png" height="80%" width="80%" alt="MySQL Credentials"/>
 </p>
   </ol>
 
