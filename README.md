@@ -49,13 +49,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
    <br />
 <p>
-<img src="https://i.imgur.com/TDyu27P.png" height="80%" width="80%" alt="Common HTTP Features"/>
+<img src="https://i.imgur.com/4CuRFyZ.png" height="80%" width="80%" alt="Common HTTP Features"/>
 </p>
 <p>
   <li>Open a webrowser and visit http://127.0.0.1/. If the installation was successful you will see a site like the one below.</li>
      <br />
 <p>
-<img src="https://i.imgur.com/vV12vmo.png" height="80%" width="80%" alt="Common HTTP Features"/>
+<img src="https://i.imgur.com/vV12vmo.png" height="80%" width="80%" alt="Visit Webpage to Confirm Installation"/>
 </p>
 <p>
   </ol>
@@ -111,7 +111,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 8: Configure IIS</h3>
   <ol>
-    <li>Open IIS Manager.</li>
+    <li>Open IIS Manager and run an Administrator.</li>
+      <br />
+<p>
+<img src="https://i.imgur.com/YG6FD1b.png" height="80%" width="80%" alt="IIS Run as Admin"/>
+</p>
     <li>Register PHP: In IIS Manager, select your server, then double-click on "Handler Mappings."</li>
     <li>Click "Add Module Mapping" and configure it to handle .php files with the PHP executable.</li>
   </ol>
