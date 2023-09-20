@@ -113,7 +113,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ol>
     <li>Open IIS Manager and run an Administrator.</li>
       <br />
-<p>P
+<p>
 <img src="https://i.imgur.com/YG6FD1b.png" height="80%" width="80%" alt="IIS Run as Admin"/>
 </p>
     <li>Register PHP: In IIS Manager
