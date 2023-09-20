@@ -111,22 +111,46 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </ol>
 
 
-<h3></h3>
+<h3>Step 10: Restart IIS</h3>
   <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>In IIS Manager, select your server, and click "Restart" from the right-hand side.</li>
   </ol>
 
-
-<h3></h3>
+<h3>Step 11: Configure PHP Extensions:</h3>
   <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>In IIS Manager, double-click "PHP Manager."</li>
+    <li>Click "Enable or disable an extension."</li>
+    <li>Enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll.</li>
   </ol>
+
+<h3>Step 12: Rename Configuration File:</h3>
+  <ol>
+    <li>Rename C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.</li>
+  </ol>
+
+<h3>Step 13: Set Permissions</h3>
+  <ol>
+    <li>Right-click ost-config.php, go to "Properties," and under the "Security" tab, assign appropriate permissions.</li>
+    <li>Remove inheritance and give "Everyone" read and execute permissions.</li>
+  </ol>
+
+<h3>Step 14: Complete osTicket Setup</h3>
+  <ol>
+    <li>Open a web browser and navigate to http://localhost/osTicket/scp/. Follow the on-screen instructions to set up osTicket, including database configuration</li>
+  </ol>
+
+<h3>Step 15: Cleanup</h3>
+  <ol>
+    <li>Delete the C:\inetpub\wwwroot\osTicket\setup directory.</li>
+    <li>Set permissions for ost-config.php to "Read" only.</li>
+  </ol>
+
+<h3>Access osTicket</h3>
+  <ol>
+    <li>You can access the osTicket admin panel at http://localhost/osTicket/scp/login.php.</li>
+    <li>The end-user portal is available at http://localhost/osTicket/.</li>
+  </ol>
+  
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
