@@ -40,6 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ol>
     <li>In the Start menu, type "Turn Windows features on or off" and press Enter. This will open the "Windows Features" dialog.</li>
     <li>In the "Windows Features" dialog, scroll down or look for "Internet Information Services." </li>
+    <li>Add the IIS Management Console by following this path: Internet Information Services -> Web Management Tools -> IIS Management Console [X] IIS Management Console</li>
     <li>Add required features: CGI and Common HTTP Features.</li>
     <br />
 <p>
