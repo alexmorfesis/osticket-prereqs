@@ -175,10 +175,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li>Remove inheritance and give "Everyone" read and execute permissions.</li>
   </ol>
 
-<h3>Step 13: Complete osTicket Setup</h3>
+<h3>Step 13: Begin osTicket Setup</h3>
   <ol>
-    <li>Open a web browser and navigate to http://localhost/osTicket/scp/. Follow the on-screen instructions to set up osTicket, including database configuration</li>
+    <li>Open a web browser and navigate to http://localhost/osTicket/scp/.</li>
+    <li>Name the Helpdesk and assign a default email to receive emails from customers.</li>
   </ol>
+
+<h3>Step 14: Install HeidiSQL</h3>
+  <ol>
+    <li>From the Installation Files, download and install HeidiSQL.</li>
+    <li>When installation is complete, create a new session, root/Password1</li>
+    <li>Connect to the session and reate a database called “osTicket”</li>
+  </ol>
+
+<h3>Step 15: Continue Setting Up osTicket in the Browser</h3>
+  <ol>
+    <li>After intalling HeidiSQL, complete the bottom of the setup form:
+      <ul>
+        <li>MySQL Database: osTicket</li>
+        <li>MySQL Username: root</li>
+        <li>MySQL Password: (use the password you created when setting up the MySQL Credentials)</li>
+      </ul></li>
+    <li>Click “Install Now!”</li>
+  </ol>
+  
 
 <h3>Step 14: Cleanup</h3>
   <ol>
