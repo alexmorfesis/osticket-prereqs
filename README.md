@@ -155,7 +155,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ol>
     <li>In IIS Manager, double-click "PHP Manager."</li>
     <li>Click "Enable or disable an extension."</li>
-    <li>Enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll.</li>
+    <li>Enable the following extensions: 
+      <ul>
+        <li>php_imap.dll</li>
+        <li>php_intl.dll</li>
+        <li>php_opcache.dll</li>
+      </ul>
+    </li>
   </ol>
 
 <h3>Step 11: Rename Configuration File</h3>
