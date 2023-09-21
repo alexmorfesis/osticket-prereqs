@@ -137,49 +137,50 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </ol>
 
 
-<h3>Step 9: Download and Install osTicket:</h3>
+<h3>Step 9: Download and Install osTicket</h3>
   <ol>
     <li>Download osTicket from the provided installation files.</li>
-    <li>Extract the contents and copy the "upload" folder to C:\inetpub\wwwroot.</li>
-    <li>Rename the "upload" folder to "osTicket.</li>
-  </ol>
+    <li>Extract the contents and copy the "upload" folder to C:\inetpub\wwwroot. Take note of the pathway to each folder. You can drag and drop the "upload" folder.</li>
+    <li>Rename the "upload" folder to "osTicket".</li>
+    <br />
 
-
-<h3>Step 10: Restart IIS</h3>
-  <ol>
+<p>
+<img src="https://i.imgur.com/qVP0ghE.png" height="80%" width="80%" alt="upload to osTicket"/>
+</p>
     <li>In IIS Manager, select your server, and click "Restart" from the right-hand side.</li>
   </ol>
 
-<h3>Step 11: Configure PHP Extensions:</h3>
+
+<h3>Step 10: Configure PHP Extensions</h3>
   <ol>
     <li>In IIS Manager, double-click "PHP Manager."</li>
     <li>Click "Enable or disable an extension."</li>
     <li>Enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll.</li>
   </ol>
 
-<h3>Step 12: Rename Configuration File:</h3>
+<h3>Step 11: Rename Configuration File</h3>
   <ol>
     <li>Rename C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.</li>
   </ol>
 
-<h3>Step 13: Set Permissions</h3>
+<h3>Step 12: Set Permissions</h3>
   <ol>
     <li>Right-click ost-config.php, go to "Properties," and under the "Security" tab, assign appropriate permissions.</li>
     <li>Remove inheritance and give "Everyone" read and execute permissions.</li>
   </ol>
 
-<h3>Step 14: Complete osTicket Setup</h3>
+<h3>Step 13: Complete osTicket Setup</h3>
   <ol>
     <li>Open a web browser and navigate to http://localhost/osTicket/scp/. Follow the on-screen instructions to set up osTicket, including database configuration</li>
   </ol>
 
-<h3>Step 15: Cleanup</h3>
+<h3>Step 14: Cleanup</h3>
   <ol>
     <li>Delete the C:\inetpub\wwwroot\osTicket\setup directory.</li>
     <li>Set permissions for ost-config.php to "Read" only.</li>
   </ol>
 
-<h3>Access osTicket</h3>
+<h3>Step 15: Access osTicket</h3>
   <ol>
     <li>You can access the osTicket admin panel at http://localhost/osTicket/scp/login.php.</li>
     <li>The end-user portal is available at http://localhost/osTicket/.</li>
@@ -194,7 +195,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img src="https://i.imgur.com/U6ci6Bc.png" height="80%" width="80%" alt="Enable PHP"/>
+<img src="https://i.imgur.com/qVP0ghE.png" height="80%" width="80%" alt="upload to osTicket"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
