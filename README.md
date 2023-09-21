@@ -190,12 +190,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 15: Continue Setting Up osTicket in the Browser</h3>
   <ol>
-    <li>After intalling HeidiSQL, complete the bottom of the setup form:
+    <li>After intalling HeidiSQL, complete the bottom of the setup form under the heading "Database Settings":
       <ul>
         <li>MySQL Database: osTicket</li>
         <li>MySQL Username: root</li>
         <li>MySQL Password: (use the password you created when setting up the MySQL Credentials)</li>
       </ul></li>
+     </br>
+<p>
+<img src="https://i.imgur.com/gdKc8rW.png" height="80%" width="80%" alt="Database Settings"/>
+</p>
+<p>
     <li>Click “Install Now!”</li>
   </ol>
   
