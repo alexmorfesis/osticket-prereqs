@@ -203,7 +203,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
     <li>Click “Install Now!”</li>
   </ol>
-  
+ 
 
 <h3>Step 14: Cleanup</h3>
   <ol>
