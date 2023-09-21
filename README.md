@@ -189,11 +189,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 15: Access osTicket</h3>
   <ol>
     <li>You can access the osTicket admin panel at http://localhost/osTicket/scp/login.php.</li>
+    <p>
+      <br />
+<img src="https://i.imgur.com/vvitx3c.png" height="80%" width="80%" alt="osTicket Installed"/>
+</p>
+<p>
     <li>The end-user portal is available at http://localhost/osTicket/.</li>
   </ol>
   
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vvitx3c.png" height="80%" width="80%" alt="osTicket Installed"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
