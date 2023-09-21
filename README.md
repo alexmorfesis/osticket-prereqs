@@ -183,7 +183,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 14: Cleanup</h3>
   <ol>
     <li>Delete the C:\inetpub\wwwroot\osTicket\setup directory.</li>
+    </br>
+<p>
+<img src="https://i.imgur.com/3XzCuI6.png" height="80%" width="80%" alt="Delete Set-up Folder"/>
+</p>
+<p>
     <li>Set permissions for ost-config.php to "Read" only.</li>
+    </br>
+<p>
+<img src="https://i.imgur.com/J3GI9u0.png" height="80%" width="80%" alt="Read Only"/>
+</p>
+<p>
   </ol>
 
 <h3>Step 15: Access osTicket</h3>
@@ -199,11 +209,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 
 
-</br>
-<p>
-<img src="https://i.imgur.com/qVP0ghE.png" height="80%" width="80%" alt="upload to osTicket"/>
-</p>
-<p>
 
   </br>
 <p>
