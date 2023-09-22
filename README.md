@@ -184,7 +184,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 14: Install HeidiSQL</h3>
   <ol>
     <li>From the Installation Files, download and install HeidiSQL.</li>
-    <li>When installation is complete, create a new session, root/Password1</li>
+    <li>When installation is complete, create a new session, root/[password from MySQL credentials creation]</li>
          </br>
 <p>
 <img src="https://i.imgur.com/xqI7LmN.png" height="80%" width="80%" alt="Launch New Session HeidiSQL"/>
