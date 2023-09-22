@@ -185,8 +185,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ol>
     <li>From the Installation Files, download and install HeidiSQL.</li>
     <li>When installation is complete, create a new session, root/Password1</li>
+         </br>
+<p>
+<img src="https://i.imgur.com/xqI7LmN.png" height="80%" width="80%" alt="Launch New Session HeidiSQL"/>
+</p>
+<p>
     <li>Connect to the session and reate a database called “osTicket”</li>
   </ol>
+
 
 <h3>Step 15: Continue Setting Up osTicket in the Browser</h3>
   <ol>
