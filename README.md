@@ -172,10 +172,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 12: Set Permissions</h3>
   <ol>
     <li>Right-click ost-config.php, go to "Properties," and under the "Security" tab, assign appropriate permissions.</li>
-    <li>Remove inheritance and give "Everyone" read and execute permissions.</li>
+    <li>Disable inheritance and give "Everyone" read and execute permissions.</li>
     <br />
 <p>
-<img src="https://i.imgur.com/Uyz4Uw9.png" height="80%" width="80%" alt="Extract PHP"/>
+<img src="https://i.imgur.com/eRcDe4b.png" height="80%" width="80%" alt="Extract PHP"/>
 </p>
   </ol>
 
