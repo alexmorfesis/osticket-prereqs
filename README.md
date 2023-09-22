@@ -173,6 +173,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ol>
     <li>Right-click ost-config.php, go to "Properties," and under the "Security" tab, assign appropriate permissions.</li>
     <li>Remove inheritance and give "Everyone" read and execute permissions.</li>
+    <br />
+<p>
+<img src="https://i.imgur.com/Uyz4Uw9.png" height="80%" width="80%" alt="Extract PHP"/>
+</p>
   </ol>
 
 <h3>Step 13: Begin osTicket Setup</h3>
