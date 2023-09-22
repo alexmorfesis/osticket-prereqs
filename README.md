@@ -195,6 +195,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
     <li>Connect to the session and reate a database called “osTicket”</li>
+    </br>
+<p>
+<img src="https://i.imgur.com/xuYtLsN.png" height="80%" width="80%" alt="create osTicket Database"/>
+</p>
+<p>
   </ol>
 
 
