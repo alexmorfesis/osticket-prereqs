@@ -41,7 +41,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li>Right-click the Windows icon and select "Run."</li>
     <li>Type "control" to open the Control Panel, and then click on "Programs."
 </li>
-    <li>Next, click on "Turn Windows features on or off." This action will open the "Windows Features" dialog.</li>
+    <li>Next, click on "Turn Windows features on or off." This action opens the "Windows Features" dialog.</li>
     <li>In the "Windows Features" dialog, scroll down or search for "Internet Information Services." </li>
     <li>Add the IIS Management Console by following this path: Internet Information Services -> Web Management Tools -> IIS Management Console [X] IIS Management Console</li>
     <li>Additionally, ensure that you add the required features: CGI and Common HTTP Features.</li>
@@ -151,7 +151,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/qVP0ghE.png" height="80%" width="80%" alt="upload to osTicket"/>
 </p>
     <li>In IIS Manager, select your server, and then click "Restart" from the right-hand side.</li>
-  <li>Navigate to Sites -&gt; Default -&gt; osTicket. On the right, click “Browse *:80”. If the osTicket installation is successful, you will land on a site resembling the one below.</li>
+  <li>Navigate to Sites -&gt; Default -&gt; osTicket. On the right, click “Browse *:80”. If the osTicket installation was successful, you will see a site that resembles the one depicted below.</li>
          <br />
 
 <p>
@@ -214,7 +214,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/xqI7LmN.png" height="80%" width="80%" alt="Launch New Session HeidiSQL"/>
 </p>
 <p>
-    <li>Connect to the session and reate a database called “osTicket”</li>
+    <li>Connect to the session and create a database called “osTicket”</li>
     </br>
 <p>
 <img src="https://i.imgur.com/xuYtLsN.png" height="80%" width="80%" alt="create osTicket Database"/>
@@ -225,7 +225,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 15: Continue Setting Up osTicket in the Browser</h3>
   <ol>
-    <li>After intalling HeidiSQL, complete the bottom of the setup form under the heading "Database Settings":
+    <li>After installing HeidiSQL, complete the bottom of the setup form under the heading "Database Settings":
       <ul>
         <li>MySQL Database: osTicket</li>
         <li>MySQL Username: root</li>
@@ -237,10 +237,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
     <li>Click “Install Now!”</li>
+     </br>
+<p>
+<img src="https://i.imgur.com/iq2gigu.png" height="80%" width="80%" alt="Success osTicket Install"/>
+</p>
   </ol>
  
 
-<h3>Step 14: Cleanup</h3>
+<h3>Step 16: Cleanup</h3>
   <ol>
     <li>Delete the C:\inetpub\wwwroot\osTicket\setup directory.</li>
     </br>
@@ -256,7 +260,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   </ol>
 
-<h3>Step 15: Access osTicket</h3>
+<h3>Step 17: Access osTicket</h3>
   <ol>
     <li>You can access the osTicket admin panel at http://localhost/osTicket/scp/login.php.</li>
     <p>
@@ -268,16 +272,3 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </ol>
   
 
-
-
-  </br>
-<p>
-<img src="https://i.imgur.com/qVP0ghE.png" height="80%" width="80%" alt="upload to osTicket"/>
-</p>
-<p>
-
-  </br>
-<p>
-<img src="https://i.imgur.com/qVP0ghE.png" height="80%" width="80%" alt="upload to osTicket"/>
-</p>
-<
