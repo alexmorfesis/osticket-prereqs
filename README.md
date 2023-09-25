@@ -151,6 +151,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/qVP0ghE.png" height="80%" width="80%" alt="upload to osTicket"/>
 </p>
     <li>In IIS Manager, select your server, and click "Restart" from the right-hand side.</li>
+    <li>Go to sites -> Default -> osTicket. On the right, click “Browse *:80”. If osTicket installation in successful, you will navigate to a site like the one below.</li>
+         <br />
+
+<p>
+<img src="https://i.imgur.com/k6ygW7d.png" height="80%" width="80%" alt="Successful osTicket Install"/>
+</p>
   </ol>
 
 
