@@ -42,9 +42,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <li>Type "control" to open the Control Panel, and then click on "Programs."
 </li>
     <li>Next, click on "Turn Windows features on or off." This action will open the "Windows Features" dialog.</li>
-    <li>In the "Windows Features" dialog, scroll down or look for "Internet Information Services." </li>
+    <li>In the "Windows Features" dialog, scroll down or search for "Internet Information Services." </li>
     <li>Add the IIS Management Console by following this path: Internet Information Services -> Web Management Tools -> IIS Management Console [X] IIS Management Console</li>
-    <li>Add required features: CGI and Common HTTP Features.</li>
+    <li>Additionally, ensure that you add the required features: CGI and Common HTTP Features.</li>
     <br />
 <p>
 <img src="https://i.imgur.com/1Xx2vhl.png" height="80%" width="80%" alt="CGI path and seletion"/>
@@ -55,7 +55,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/4CuRFyZ.png" height="80%" width="80%" alt="Common HTTP Features"/>
 </p>
 <p>
-  <li>Open a webrowser and visit http://127.0.0.1/. If the installation was successful you will see a site like the one below.</li>
+  <li>Open a web browser and visit http://127.0.0.1/. If the installation was successful you will see a site like the one depicted below.</li>
      <br />
 <p>
 <img src="https://i.imgur.com/vV12vmo.png" height="80%" width="80%" alt="Visit Webpage to Confirm Installation"/>
