@@ -233,7 +233,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
       </ul></li>
      </br>
 <p>
-<img src="https://i.imgur.com/gfzdzqb.png" height="80%" width="80%" alt="Database Settings"/>
+<img src="https://i.imgur.com/HV4Vslk.png" height="80%" width="80%" alt="Database Settings"/>
 </p>
 <p>
     <li>Click “Install Now!”</li>
