@@ -143,15 +143,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step 9: Download and Install osTicket</h3>
   <ol>
     <li>Download osTicket from the provided installation files.</li>
-    <li>Extract the contents and copy the "upload" folder to C:\inetpub\wwwroot. Take note of the pathway to each folder. You can drag and drop the "upload" folder.</li>
-    <li>Rename the "upload" folder to "osTicket".</li>
+    <li>Extract the contents and copy the "upload" folder to C:\inetpub\wwwroot. Make a note of the folder pathway. You can simply drag and drop the "upload" folder.</li>
+    <li>Rename the "upload" folder to "osTicket."</li>
     <br />
 
 <p>
 <img src="https://i.imgur.com/qVP0ghE.png" height="80%" width="80%" alt="upload to osTicket"/>
 </p>
-    <li>In IIS Manager, select your server, and click "Restart" from the right-hand side.</li>
-    <li>Go to sites -> Default -> osTicket. On the right, click “Browse *:80”. If osTicket installation in successful, you will navigate to a site like the one below.</li>
+    <li>In IIS Manager, select your server, and then click "Restart" from the right-hand side.</li>
+  <li>Navigate to Sites -&gt; Default -&gt; osTicket. On the right, click “Browse *:80”. If the osTicket installation is successful, you will land on a site resembling the one below.</li>
          <br />
 
 <p>
