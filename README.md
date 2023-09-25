@@ -164,6 +164,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ol>
     <li>In IIS Manager, double-click "PHP Manager."</li>
     <li>Click "Enable or disable an extension."</li>
+    <br />
+
+<p>
+<img src="https://i.imgur.com/BQ2JsNP.png" height="80%" width="80%" alt="Enable Extensions PHP"/>
+</p>
     <li>Enable the following extensions: 
       <ul>
         <li>php_imap.dll</li>
@@ -171,6 +176,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
         <li>php_opcache.dll</li>
       </ul>
     </li>
+    <li>Refresh the osTicket site in your browser and observe the changes below.</li>
+      <br />
+
+<p>
+<img src="https://i.imgur.com/6jE98lE.png" height="80%" width="80%" alt="Enable Extensions PHP"/>
+</p>
   </ol>
 
 <h3>Step 11: Rename Configuration File</h3>
